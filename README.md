@@ -15,7 +15,7 @@
 #dalvikvm informations about dalvik vm
 #StrictMode information about StrictMode warnings
 adb logcat |grep --color=always -E "System.err|AndroidRuntime|MessageQueue|CONSOLE|W/Bundle|dalvikvm|StrictMode"
-查看详细及最新: https://github.com/androidyue/DroidScripts/blob/master/shell/debugInfo.sh
+查看详细及最新: https://github.com/XinRan5312/QxDevJiaoBen/blob/master/shell/debugInfo.sh
 
 打印某个应用的日志
 
@@ -67,7 +67,7 @@ def readFromShell(command):
     result = p.stdout.read().strip()
     return result
 gpush()
-查看详细：https://github.com/androidyue/DroidScripts/blob/master/python/gpush.py
+查看详细：https://github.com/XinRan5312/QxDevJiaoBen/blob/master/python/gpush.py
 
 快速打开应用详情页
 
@@ -80,7 +80,7 @@ adb shell am start  -a "android.settings.APPLICATION_DETAILS_SETTINGS" -d "packa
 使用如下
 
 bash clearAppData.sh com.droidyue.akoi
-查看详细及最新: https://github.com/androidyue/DroidScripts/blob/master/shell/clearAppData.sh
+查看详细及最新: https://github.com/XinRan5312/QxDevJiaoBen/blob/master/shell/clearAppData.sh
 
 查找目录下的文件
 
@@ -153,4 +153,4 @@ alias cdProject="cd ~/Documents/Android/XXXX"
 
 脚本仓库
 
-上面的脚本基本都存放于https://github.com/androidyue/DroidScripts，欢迎贡献。
+上面的脚本基本都存放于https://github.com/XinRan5312/QxDevJiaoBen，欢迎贡献。
